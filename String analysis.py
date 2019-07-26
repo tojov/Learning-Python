@@ -1,6 +1,6 @@
 import re
 
-lyrics="""Imagine there's no Heaven
+lyrics="""Imagine there's no Heaven #the string to be analysed
 It's easy if you try
 No Hell below us
 Above us only sky
@@ -38,7 +38,7 @@ I hope someday you'll join us
 And the world will live as one
 """
 lyrics.strip()
-lylist1=re.split(" |\n",lyrics)
+lylist1=re.split(" |\n",lyrics) #to use more than one delimiter
 #print(lylist1)
 lylist=[]
 n1=len(lylist1)
