@@ -28,4 +28,4 @@ if __name__ == '__main__':
             count=1
         c-=1
 k.sort()
-print(k[-1])
+print(k[-1]) #max no of consecutive 1s
